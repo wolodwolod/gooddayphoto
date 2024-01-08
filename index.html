@@ -5,28 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/reseter.css" />
+    <!-- <link rel="stylesheet" href="assets/css/reseter.css" /> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/home/home.css" />
 </head>
 <body>
     <header>
-        <div className="container">
-          <div className="row">
-            <nav className="navbar navbar-expand-lg nav">
-              <div className="container-fluid  bold">
-                <div className="navbar-brand logo">
-                  <NavLink
-                    to="/pl/home"
-                    className={styles.link}
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg nav">
+              <div class="container-fluid  bold">
+                <div class="navbar-brand logo">
+                  <a
+                  class="link"
+                    href="index.html"                                    
                     onClick={removeActive}
                   >
-                    <LogoPL />
-                  </NavLink>
+                  <div class={s.Logo}>
+                    <p class={s.Logo_name}>Tatiana Prytaka</p>
+                    <p class={s.Logo_about}>Fotograf</p>
+                  </div>
+                  </a>
                 </div>
   
                 <button
-                  className="navbar-toggler"
+                  class="navbar-toggler"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbarNavDropdown"
@@ -34,22 +37,22 @@
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span className="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
                 </button>
   
                 <div
-                  className="collapse navbar-collapse menu-wrapper"
+                  class="collapse navbar-collapse menu-wrapper"
                   id="navbarNavDropdown"
                 >
-                  <ul className="navbar-nav nav">
-                    <li className="nav-item nav-link icon-wrapper">
+                  <ul class="navbar-nav nav">
+                    <li class="nav-item nav-link icon-wrapper">
                       <NavLink
                         to="/pl/home"
-                        className={getActiveClass}
+                        class={getActiveClass}
                         onClick={removeActive}
                       >
                       <HandySvg
-                          className="home-icon"
+                          class="home-icon"
                           src={HomeIcon}
                           width="32"
                           height="32"
@@ -58,12 +61,12 @@
                         /* Główna */ -->
                       </NavLink>
                     </li>
-                    <li className="nav-item dropdown">
+                    <li class="nav-item dropdown">
                       <div
                         // id="portfolio"
   
-                        className="nav-link dropdown-toggle"
-                        // className={classNames("link","nav-link", "dropdown-toggle")}
+                        class="nav-link dropdown-toggle"
+                        // class={classNames("link","nav-link", "dropdown-toggle")}
                         href="/"
                         role="button"
                         data-bs-toggle="dropdown"
@@ -73,48 +76,48 @@
                           Portfolio
                         </NavLink>
                       </div>
-                      <ul className="dropdown-menu ps-2 pe-2 portfolio-menu">
-                        <li className="dropdown-item child">
+                      <ul class="dropdown-menu ps-2 pe-2 portfolio-menu">
+                        <li class="dropdown-item child">
                           <NavLink
                             to="/pl/portrait"
-                            className={getActiveClass}
+                            class={getActiveClass}
                             onClick={addActive}
                           >
                             Portret
                           </NavLink>
                         </li>
-                        <li className="dropdown-item child">
+                        <li class="dropdown-item child">
                           <NavLink
                             to="/pl/family"
-                            className={getActiveClass}
+                            class={getActiveClass}
                             onClick={addActive}
                           >
                             Zdjęcia rodzinne
                           </NavLink>
                         </li>
-                        <li className="dropdown-item child">
+                        <li class="dropdown-item child">
                           <NavLink
                             to="/pl/romantic"
-                            className={getActiveClass}
+                            class={getActiveClass}
                             onClick={addActive}
                           >
                             Fotografia romantyczna
                           </NavLink>
                         </li>
   
-                        <li className="dropdown-item child">
+                        <li class="dropdown-item child">
                           <NavLink
                             to="/pl/newborns"
-                            className={getActiveClass}
+                            class={getActiveClass}
                             onClick={addActive}
                           >
                             Fotografia noworodkowa
                           </NavLink>
                         </li>
-                        <li className="dropdown-item child">
+                        <li class="dropdown-item child">
                           <NavLink
                             to="/pl/events"
-                            className={getActiveClass}
+                            class={getActiveClass}
                             onClick={addActive}
                           >
                             Wydarzenia
@@ -122,30 +125,30 @@
                         </li>
                       </ul>
                     </li>
-                    <li className="nav-item nav-link">
+                    <li class="nav-item nav-link">
                       <NavLink
                         to="/pl/contacts"
-                        className={getActiveClass}
+                        class={getActiveClass}
                         onClick={removeActive}
                       >
                         Kontakt
                       </NavLink>
                     </li>
   
-                    <li className="nav-item nav-link me-50">
+                    <li class="nav-item nav-link me-50">
                       <NavLink
                         to="/pl/feedbacks"
-                        className={getActiveClass}
+                        class={getActiveClass}
                         onClick={removeActive}
                       >
                         Opinie
                       </NavLink>
                     </li>
   
-                    <li className="nav-item">
-                      <div className="dropdown lng">
+                    <li class="nav-item">
+                      <div class="dropdown lng">
                         <a
-                          className="dropdown-toggle lang"
+                          class="dropdown-toggle lang"
                           href="/"
                           role="button"
                           data-bs-toggle="dropdown"
@@ -154,10 +157,10 @@
                           <IconPL />
                         </a>
   
-                        <ul className="dropdown-menu fs-14 lang-menu">
+                        <ul class="dropdown-menu fs-14 lang-menu">
                           <li>
                             <a
-                              className="dropdown-item"
+                              class="dropdown-item"
                               href="/ua/home"
                               onClick={addLangToLS}
                             >

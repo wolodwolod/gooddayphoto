@@ -1,0 +1,78 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-stretch: condensed;
+  color: var(--bs-gray-700);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color:rgb(254, 254, 249) */
+  background-color:var(--main-background-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Цвет */
+/* :root {
+  --color1: #ebf3f9;
+
+  --color2: #fefeee;
+  --color3: rgb(107, 208, 251);
+  --color4: rgb(245, 249, 4);
+  --color5: #f7f7f7;
+  --grey-background-color: #e5e5e5;
+  --font-black-color: #212121;
+  --font-grey-color: #9b9faa;
+  --universal-darkblue-color: #264061;
+  --button-orange-color: #fc842d;
+  --summary-grey-color: #f0f1f3;
+  --header-grey-color: #eff1f3;
+  --horizontal-row-color: #e0e0e0;
+  --modal-background-grey-color: rgba(33, 33, 33, 0.12);
+} */
+.color1 {
+  color: var(--color1);
+}
+.color2 {
+  color: var(--color2);
+}
+.bg1 {
+  background-color: var(--color1);
+}
+.bg2 {
+  background-color: var(--color2);
+}
+/* body {
+  font-family: sans-serif;
+} */
+
+/* Common */
+section {
+  padding: 80px 0;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+.btn-itd {
+  display: block;
+  max-width: 250px;
+  /* margin: 0 auto; */
+  padding: 8px 30px;
+  /* color: var(--bs-white); */
+  background-color: var(--color1);
+  border: 3px solid var(--color3);
+  transition: all 0.2s ease;
+}
+.btn-itd:hover {
+  /* color: var(--bs-white); */
+  background-color: var(--color3);
+}
+.page_title {
+  margin-top: 10px;
+}
+
