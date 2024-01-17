@@ -1,8 +1,11 @@
-@import-normalize; /* bring in normalize.css styles */
+@import url('_style.css');
+@import url('_fontello.css');
+@import url('_variables.css');
 
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
+  /* font-family: fontello; */
   font-stretch: condensed;
   color: var(--bs-gray-700);
   -webkit-font-smoothing: antialiased;

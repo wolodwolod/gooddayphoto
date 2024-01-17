@@ -1,180 +1,187 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.jpg" />
+    <link rel="apple-touch-icon" href="favicon.jpg" />  
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#efebe9" />
+    <title>Fotograf w Krakowie, Myślenicach, Dobczycach, Zakopanem. Фотограф у Кракові, Мишленіцах, Добчицях, Закопаному.</title>
+    <meta name="description" content="Fotografia w Krakowie i województwie Małopolskim portretów, eventów (wesele, urodziny, impreza firmowa itp.), zdjęć rodzinnych, romantycznych, zdjęć noworodków. Фотозйомка у Кракові та Малопольщі: портрети, події (весілля, день народження, корпоратив тощо), фотографія сім'ї, дітей, фото новонароджених, романтичні фото. ">
+    <meta name="keywords" content=" fotograf, Fotografia, zdjęcia, photo, Kraków, Myślenice, Dobczyce, Zakopane, województwo Małopolskie, fotka, portret, wesele, urodziny, impreza, noworodek, romantyczne, rodzinne, foto, wydarzenia, chrzciny, фотограф, фотографія, фото, Краків, Мишленіце, Добчице, Закопане, Малопольське воєводство, фотопортрет, фотозйомка, весілля, день народження, новонароджені, діти, романтичне, сімейне фото, події, хрестини">
     <link rel="stylesheet" href="assets/css/styles/reseter.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/home/home.css" />
-    <!-- <link rel="stylesheet" type="scss" href="assets/css/styles/sass/main.scss" /> -->
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/home.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-          <div class="row">
-            <nav class="navbar navbar-expand-lg nav">
-              <div class="container-fluid  bold">
-                <div class="navbar-brand logo">
-                  <a
-                  class="link"
-                    href="index.html"                                    
-                    onClick={removeActive}
-                  >
-                  <div class="logo">
-                    <p class="logo_name">Tatiana Prytaka</p>
-                    <p class="logo_about">Fotograf</p>
-                  </div>
-                  </a>
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid bold">
+              <a class="navbar-brand logo" href="index.html">
+                <div class="logo2">
+                  <p class="logo_name">Tatiana Prytaka</p>
+                  <p class="logo_about">Fotograf</p>
                 </div>
-  
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNavDropdown"
-                  aria-controls="navbarNavDropdown"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-  
-                <div
-                  class="collapse navbar-collapse menu-wrapper"
-                  id="navbarNavDropdown"
-                >
-                  <ul class="navbar-nav nav">
-                    <li class="nav-item nav-link icon-wrapper">
-                      <NavLink
-                        to="/pl/home"
-                        class={getActiveClass}
-                        onClick={removeActive}
-                      >
-                      <HandySvg
-                          class="home-icon"
-                          src={HomeIcon}
-                          width="32"
-                          height="32"
-                        />
-<!--   
-                        /* Główna */ -->
-                      </NavLink>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <div
-                        // id="portfolio"
-  
-                        class="nav-link dropdown-toggle"
-                        // class={classNames("link","nav-link", "dropdown-toggle")}
-                        href="/"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        <NavLink to="" className={getPortfolioActive}>
-                          Portfolio
-                        </NavLink>
-                      </div>
-                      <ul class="dropdown-menu ps-2 pe-2 portfolio-menu">
-                        <li class="dropdown-item child">
-                          <NavLink
-                            to="/pl/portrait"
-                            class={getActiveClass}
-                            onClick={addActive}
-                          >
-                            Portret
-                          </NavLink>
-                        </li>
-                        <li class="dropdown-item child">
-                          <NavLink
-                            to="/pl/family"
-                            class={getActiveClass}
-                            onClick={addActive}
-                          >
-                            Zdjęcia rodzinne
-                          </NavLink>
-                        </li>
-                        <li class="dropdown-item child">
-                          <NavLink
-                            to="/pl/romantic"
-                            class={getActiveClass}
-                            onClick={addActive}
-                          >
-                            Fotografia romantyczna
-                          </NavLink>
-                        </li>
-  
-                        <li class="dropdown-item child">
-                          <NavLink
-                            to="/pl/newborns"
-                            class={getActiveClass}
-                            onClick={addActive}
-                          >
-                            Fotografia noworodkowa
-                          </NavLink>
-                        </li>
-                        <li class="dropdown-item child">
-                          <NavLink
-                            to="/pl/events"
-                            class={getActiveClass}
-                            onClick={addActive}
-                          >
-                            Wydarzenia
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item nav-link">
-                      <NavLink
-                        to="/pl/contacts"
-                        class={getActiveClass}
-                        onClick={removeActive}
-                      >
-                        Kontakt
-                      </NavLink>
-                    </li>
-  
-                    <li class="nav-item nav-link me-50">
-                      <NavLink
-                        to="/pl/feedbacks"
-                        class={getActiveClass}
-                        onClick={removeActive}
-                      >
-                        Opinie
-                      </NavLink>
-                    </li>
-  
-                    <li class="nav-item">
-                      <div class="dropdown lng">
-                        <a
-                          class="dropdown-toggle lang"
-                          href="/"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          <IconPL />
+              </a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                class="collapse navbar-collapse menu-wrapper"
+                id="navbarNavDropdown"
+              >
+                <ul class="navbar-nav nav">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Portfolio
+                    </a>
+                    <ul class="dropdown-menu ps-2 pe-2 portfolio-menu">
+                      <li class="child link">
+                        <a class="dropdown-item" href="#"> Portret </a>
+                      </li>
+                      <li class="child link">
+                        <a class="dropdown-item" href="#"> Zdjęcia rodzinne </a>
+                      </li>
+                      <li class="child link">
+                        <a class="dropdown-item" href="#">
+                          Fotografia romantyczna
                         </a>
-  
-                        <ul class="dropdown-menu fs-14 lang-menu">
-                          <li>
-                            <a
-                              class="dropdown-item"
-                              href="/ua/home"
-                              onClick={addLangToLS}
-                            >
-                              <IconUA />
-                            </a>
-                          </li>
-                          <!-- <li>
+                      </li>
+                      <li class="child link">
+                        <a class="dropdown-item" href="#">
+                          Fotografia noworodkowa
+                        </a>
+                      </li>
+                      <li class="child link">
+                        <a class="dropdown-item" href="#"> Wydarzenia </a>
+                      </li>
+                    </ul>
+
+                    <!-- 
+                    <li class="dropdown-item child">
+                      <a
+                        to="/pl/family"
+                        class="{getActiveClass}"
+                        onClick="{addActive}"
+                      >
+                        Zdjęcia rodzinne
+                      </a>
+                    </li>
+                    <li class="dropdown-item child">
+                      <NavLink
+                        to="/pl/romantic"
+                        class="{getActiveClass}"
+                        onClick="{addActive}"
+                      >
+                        Fotografia romantyczna
+                      </NavLink>
+                    </li>
+
+                    <li class="dropdown-item child">
+                      <NavLink
+                        to="/pl/newborns"
+                        class="{getActiveClass}"
+                        onClick="{addActive}"
+                      >
+                        Fotografia noworodkowa
+                      </NavLink>
+                    </li>
+                    <li class="dropdown-item child">
+                      <NavLink
+                        to="/pl/events"
+                        class="{getActiveClass}"
+                        onClick="{addActive}"
+                      >
+                        Wydarzenia
+                      </NavLink>
+                    </li> -->
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link link" href="https://photopritaka.com/pl/contacts"
+                      >Kontakt</a
+                    >
+                  </li>
+                  <li class="nav-item me-50">
+                    <a class="nav-link link" href="#">Opinie</a>
+                  </li>
+
+                  <!-- <li class="nav-item nav-link">
+                    <NavLink
+                      to="/pl/contacts"
+                      class="{getActiveClass}"
+                      onClick="{removeActive}"
+                    >
+                      Kontakt
+                    </NavLink>
+                  </li>
+
+                  <li class="nav-item nav-link me-50">
+                    <NavLink
+                      to="/pl/feedbacks"
+                      class="{getActiveClass}"
+                      onClick="{removeActive}"
+                    >
+                      Opinie
+                    </NavLink>
+                  </li> -->
+
+                  <li class="nav-item dropdown lng">
+                    <a
+                      class="dropdown-toggle lang"
+                      href="/"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <div class="icon">
+                        <p class="icon_p">PL</p>
+                      </div>
+                    </a>
+
+                    <ul class="dropdown-menu fs-14 lang-menu">
+                      <li>
+                        <a
+                          class="dropdown-item lang-item"
+                          href="#"
+                          onClick="{addLangToLS}"
+                        >
+                          <div class="icon">
+                            <p class="icon_p">UA</p>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- <li>
                             <a className="dropdown-item" href="/">
                               <IconFR />
                             </a>
@@ -184,16 +191,19 @@
                               <IconEN />
                             </a>
                           </li> -->
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
+                    </ul>
+                  </li>
+                </ul>
               </div>
-            </nav>
-          </div>
+            </div>
+          </nav>
         </div>
-      </header>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+      </div>
+    </header>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
