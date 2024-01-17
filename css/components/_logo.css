@@ -26,7 +26,7 @@
     /* color: var(--bs-gray-900); */
     font-weight: 500;
     letter-spacing: 1.5px;
-    font-size: 24px;
+    font-size: 22px;
     text-transform: uppercase;
     /* text-shadow: 1px -2px 0px #dbd0ba;
     text-shadow: 1px 0px 0px var(--yellow); */
@@ -36,14 +36,14 @@
     .logo_name {
       font-weight: 400;
       /* letter-spacing: 1.5px; */
-      font-size: 26px;
+      font-size: 24px;
     }
   }
   @media screen and (min-width: 400px) {
     .logo_name {
       font-weight: 300;
       /* letter-spacing: 1.5px; */
-      font-size: 30px;
+      font-size: 28px;
     }
   }
   
