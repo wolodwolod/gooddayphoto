@@ -2,6 +2,7 @@
 footer {
   padding: 0 0 40px;
   margin-top: 10px;
+  background-color: var(--bs-light);
 }
 
 .btn-footer_wrapper {
