@@ -1,0 +1,19 @@
+
+
+/* Common */
+section {
+  padding: 20px 0 0 0;
+}
+
+/* Directions */
+.directions h2 {
+  padding: 50px;
+  border: 3px solid var(--bs-gray-400);;
+  font-size: 28px;
+  background-color: #f0f0f0;
+}
+
+.directions a {
+  text-decoration: none;
+}
+

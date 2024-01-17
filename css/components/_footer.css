@@ -1,0 +1,31 @@
+/* Підвал */
+footer {
+  padding: 0 0 40px;
+  margin-top: 10px;
+}
+
+.btn-footer_wrapper {
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+
+.btn-footer {
+  display: block; 
+  padding: 0 20px; 
+  outline: none;  
+  text-align: center;
+  letter-spacing: 0.04em;  
+  background: inherit;  
+  cursor: pointer;
+}
+
+.social-icon {
+  stroke: var(--bs-gray-600);
+  fill: var(--bs-gray-600);
+}
+
+.btn-footer:hover .social-icon {
+  stroke: #2158ca;
+  fill: #2158ca; 
+}
