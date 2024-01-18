@@ -159,6 +159,12 @@ nav {
   font-weight: 400;
 }
 
+.link:hover,
+.dropdown-item:hover {
+  color: #1c52be;
+  
+}
+
 .home-icon {
   stroke:var(--bs-gray-600);
   fill: var(--bs-gray-600);
