@@ -9,13 +9,15 @@
   height: 140px;
   padding: 50px 10px;
   border: 3px solid var(--bs-gray-400);
+  color: #ffffff;
   font-size: 28px;
-  background-color: #f0f0f0;
+  background-color: var(--bs-gray-400);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .directions h2:hover {
-  color: #ffffff;
+  border: 3px solid #ffffff;
+  font-size: 30px;
 }
 
 .dir_portret {
