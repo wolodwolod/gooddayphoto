@@ -1,4 +1,9 @@
 /* Common */
+
+.mb-3 {
+  margin-bottom: 30px;
+}
+
 .directions {
   padding: 10px 0 0 0;
   margin-bottom: 20px;
