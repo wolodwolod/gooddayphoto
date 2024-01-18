@@ -1,5 +1,3 @@
-
-
 /* Common */
 .directions {
   padding: 10px 0 0 0;
@@ -10,9 +8,63 @@
 .directions h2 {
   height: 140px;
   padding: 50px 10px;
-  border: 3px solid var(--bs-gray-400);;
+  border: 3px solid var(--bs-gray-400);
   font-size: 28px;
   background-color: #f0f0f0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.directions h2:hover {
+  color: #ffffff;
+}
+
+.dir_portret {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../images/portret.jpg");
+}
+.dir_romantic {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../images/romantic.jpg");
+}
+.dir_wedding {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../images/wedding.jpg");
+}
+.dir_family {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../images/family.jpg");
+}
+.dir_newborn {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../images/newborn.jpg");
+}
+.dir_events {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../images/events.jpg");
 }
 
 /* .oneword {
@@ -26,4 +78,3 @@ padding: 20px;
 .directions a {
   text-decoration: none;
 }
-
