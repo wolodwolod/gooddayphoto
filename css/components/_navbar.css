@@ -157,11 +157,12 @@ nav {
   letter-spacing: 0.5px;
   color: var(--bs-gray-700);
   font-weight: 400;
+  transition: 0.5s;
 }
 
 .link:hover,
 .dropdown-item:hover {
-  color: #1c52be;
+  color: var(--color-hover);
   
 }
 

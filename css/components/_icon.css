@@ -21,7 +21,7 @@
   }
 
 .icon:hover {
-    color: #2158CA;
+    color: var(--color-hover);
 }
 
 .icon_p {

@@ -21,12 +21,19 @@ footer {
   cursor: pointer;
 }
 
-.social-icon {
+.icon-instagram, 
+.icon-facebook {
   stroke: var(--bs-gray-600);
   fill: var(--bs-gray-600);
+  transition: 1s;
 }
 
-.btn-footer:hover .social-icon {
+.btn-footer:hover .icon-instagram {
+  stroke: var(--color-hover);
+  fill: var(--color-hover); 
+}
+
+.btn-footer:hover .icon-facebook {
   stroke: #2158ca;
   fill: #2158ca; 
 }
