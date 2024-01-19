@@ -34,6 +34,6 @@ footer {
 }
 
 .btn-footer:hover .icon-facebook {
-  stroke: #2158ca;
-  fill: #2158ca; 
+  stroke: blue;
+  fill: blue; 
 }
