@@ -12,7 +12,8 @@
     --yellow: #fef84c;
     --color1: #ebf3f9;
     --color-hover: #8e0000;  
-    --color-hover-light: #895858;  
+    --color-hover-light: #895858; 
+
     --color2: #fefeee;
     --color3: rgb(107, 208, 251);
     --color4: rgb(245, 249, 4);
@@ -22,6 +23,7 @@
   
     --font-black-color: #212121;
     --font-grey-color: #9b9faa;
+    --font-brown: #584635;
     --universal-darkblue-color: #264061;
     --orange-color: #fee0cb;
     --button-1-color: #ecf4fc;

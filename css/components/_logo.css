@@ -18,7 +18,8 @@
     margin: 0;
     font-stretch: 50%;
     /* color: #4b5085; */
-    color: var(--bs-secondary-text-emphasis);
+    color: var(--font-brown);
+    /* color: var(--bs-secondary-text-emphasis); */
     transition: 0.5s;
     
     /* color: var(--bs-gray-900); */
@@ -50,10 +51,10 @@
   }
   
   .logo_about {
-    color: var(--bs-gray-700);
+    color: var(--font-brown);
     font-family: var(--monserrat);
     letter-spacing: 3px;
-    font-weight: 600;
+    font-weight: 550;
     /* font-family: 'Pacifico', cursive; */
     font-style: italic;
     margin: 0;

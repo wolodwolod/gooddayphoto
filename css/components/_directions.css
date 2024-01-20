@@ -23,8 +23,8 @@
   transition: 1s;
 }
 .directions h2:hover {
-  border: 3px solid #ffffff;
-  font-size: 32px;
+  border: 3px solid var(--font-brown);
+  font-size: 30px;
 }
 
 .dir_portret {
