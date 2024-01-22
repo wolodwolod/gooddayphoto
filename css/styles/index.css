@@ -20,6 +20,18 @@
   font-style: normal; 
   font-weight: normal;
    }
+@font-face {
+  font-family: "BurlakRegular";  
+  src: url("../../fonts/Burlak\ Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
+@font-face {
+  font-family: "EBGaramond08Italic";  
+  src: url("../../fonts/EBGaramondSC08-Regular.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
 
 body {
   margin: 0;

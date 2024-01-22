@@ -16,7 +16,6 @@
   border: 3px solid #ffffff;
   border-radius: 5px;
   color: #ffffff;
-  font-family: "CopperplateGothic";
   font-size: 28px;
   background-color: var(--bs-gray-400);
   background-size: cover;
@@ -24,7 +23,7 @@
   transition: 0.5s;
 }
 .directions h2:hover {
-  border: 3px solid var(--font-brown-light);
+  border: 3px solid var(--font-brown-light-2);
   font-size: 30px;
 }
 
