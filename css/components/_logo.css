@@ -20,7 +20,7 @@
   font-stretch: 50%;
   /* color: #4b5085; */
   color: var(--font-brown-light-2);
-  /* opacity: .8; */
+  opacity: 1;
   /* color: var(--bs-secondary-text-emphasis); */
   transition: 0.5s;
 
@@ -68,7 +68,7 @@
 
 .logo:hover .logo_name {
   color: var(--color-hover);
-  opacity: 1;
+  opacity: .7;
 }
 
 
