@@ -16,14 +16,15 @@
   border: 3px solid #ffffff;
   border-radius: 5px;
   color: #ffffff;
+  font-family: "CopperplateGothic";
   font-size: 28px;
   background-color: var(--bs-gray-400);
   background-size: cover;
   background-repeat: no-repeat;
-  transition: 1s;
+  transition: 0.5s;
 }
 .directions h2:hover {
-  border: 3px solid var(--font-brown);
+  border: 3px solid var(--font-brown-light);
   font-size: 30px;
 }
 

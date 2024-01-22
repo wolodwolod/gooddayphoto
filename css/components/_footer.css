@@ -1,14 +1,19 @@
 /* Підвал */
 footer {
-  padding: 0 0 40px;
-  margin-top: 10px;
-  background-color: var(--bs-light);
+  padding: 5px 0;
+  margin: 5px 0 15px;
+  background-color: var(--second-background-color);
 }
 
-.btn-footer_wrapper {
+.footer_wrapper {
   display: flex;
-  justify-content: flex-start;
- 
+  /* justify-content: flex-start; */
+  justify-content: space-between; 
+}
+
+.footer_icon-wrapper {
+  display: flex;
+  
 }
 
 .btn-footer {
@@ -23,8 +28,8 @@ footer {
 
 .icon-instagram, 
 .icon-facebook {
-  stroke: var(--font-brown);
-  fill: var(--font-brown);
+  stroke: var(--font-brown-light);
+  fill: var(--font-brown-light);
   transition: 1s;
 }
 
@@ -37,3 +42,28 @@ footer {
   stroke: blue;
   fill: blue; 
 }
+
+.footer_copyright-wrapper {
+  display: flex;
+}
+
+.footer_copyright-wrapper p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.f_copyright-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  margin-right: 5px;
+}
+
+.f_p-wrapper {
+  color: var(--font-brown) ;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+

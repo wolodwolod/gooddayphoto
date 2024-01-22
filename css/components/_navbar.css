@@ -153,6 +153,7 @@ nav {
   /* // padding: 5px 0; */
   /* // display: inline-block; */
   text-decoration: none;
+  font-family: "CopperplateGothic";
   /* // font-family: var(--monserrat); */
   font-size: 20px;
   letter-spacing: 0.5px;
@@ -191,6 +192,7 @@ a::after {
   height: 100%;
   padding: 5px 0;
   text-decoration: none;
+  font-family: "CopperplateGothic";
   /* // font-family: var(--monserrat); */
   font-size: 20px;
   letter-spacing: 0.5px;

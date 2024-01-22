@@ -2,6 +2,25 @@
 @import url('_fontello.css');
 @import url('_variables.css');
 
+@font-face {
+  font-family: "CopperplateGothic";  
+  src: url("../../fonts/Copperplate\ Gothic\ 32\ BC.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
+@font-face {
+  font-family: "CopperplateGothicBold";  
+  src: url("../../fonts/copperplategothic_bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: bold;
+   }
+@font-face {
+  font-family: "CopperplateGothicCyrillic";  
+  src: url("../../fonts/Copperplate\ Cyrillic\ Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);

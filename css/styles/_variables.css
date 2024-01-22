@@ -19,11 +19,15 @@
     --color4: rgb(245, 249, 4);
     --color5: #f7f7f7;
     --main-background-color: #efebe9;
+    --second-background-color: #f0f0f0;    
     --grey-background-color: #e5e5e5;
   
     --font-black-color: #212121;
     --font-grey-color: #9b9faa;
     --font-brown: #584635;
+    --font-brown-2: #7b624b;
+    --font-brown-light: #987758;
+    --font-brown-light-2: #d7b290;
     --universal-darkblue-color: #264061;
     --orange-color: #fee0cb;
     --button-1-color: #ecf4fc;
