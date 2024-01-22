@@ -68,7 +68,7 @@
 
 .logo:hover .logo_name {
   color: var(--color-hover);
-  opacity: .7;
+  opacity: .6;
 }
 
 
